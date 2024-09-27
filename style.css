@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  font-family: "Raleway", sans-serif;
+  background-image: linear-gradient(to left, #fff, #e6dac9);
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    box-shadow: 0px 2px 2px 2px #00000022;
+    padding: 20px 180px 20px 80px;
+    background-image: linear-gradient(to bottom, #ffffff00, #00000000,#00000022 );
+    transition: 0.5s;
+}
+.navbar:hover{
+    box-shadow: 0px 4px 4px 4px #00000024;
+}
+.logoNavbar{
+    width: 100px;
+    transition: 0.8s;
+    filter: drop-shadow(1px 0px 2px #00000099);
+}
+.containerLinks{
+    /* border: 1px solid red; */
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #000000aa;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    color: #000000;
+    transform: translateY(-3px);
+}
+.logoNavbar:hover{
+    transform: translateX(10px) scale(1.1);
+    filter: drop-shadow(-4px 0px 2px #000000);
+    cursor: pointer;
+}
+.containerInit{
+    /* padding: 190px 50px 50px 50px; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 440px 100px 300px 100px;
+    overflow: hidden;
+}
+.imgPonte{
+    width: 1500px;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: -4px 4px 5px 5px rgba(0, 0, 0, 0.4);
+    }
+.containerBlur{
+    width: 700px;
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: -4px 4px 5px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+    background-color: #fff;
+    transform: translateX(-100px);
+    z-index: 900;
+    transition: 0.5s;
+}
+.containerBlur:hover{
+    background-color: #ffffff44;
+    backdrop-filter: blur(7px);
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+span {
+    color: #e34a3c;
+    font-weight: 800;
+}
+.containerInformation{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    /* transform: translateY(-300px); */
+    transform: translateY(-100px); 
+    height: 450px;
+    width: 700px;
+}
+hr{
+    width: 80%;
+    border: 1px solid #00000066;
+}
+
+.photoThaliaInit{
+    box-shadow: -4px 4px 5px 5px rgba(0, 0, 0, 0.4);
+    width: 300px;
+    border: 0px solid red;
+    border-radius: 50%;
+}
+.containerInformation p{
+    text-align: end;
+    font-size: 25px;
+}
+.containerAbout{
+
+}
+.containerProject{
+
+}
+.containerContact{
+
+}

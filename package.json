@@ -1,0 +1,11 @@
+{
+  "name": "thalia",
+  "version": "1.0.0",
+  "description": "Desenvolvimento de uma landing page profissional para Thalia Bianchini, psicologa atuante em Florianopolis.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Welligthon Paluchowski",
+  "license": "ISC"
+}
